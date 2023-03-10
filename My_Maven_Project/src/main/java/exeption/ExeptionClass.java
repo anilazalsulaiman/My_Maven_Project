@@ -8,7 +8,10 @@ public class ExeptionClass {
 			System.out.println(a);
 		}
 		catch(Exception e) {
-			System.out.println("hi wolrd");
+			System.out.println("hi world");
+		}
+		finally {
+			System.out.println("final");
 		}
 		
 	}

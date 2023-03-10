@@ -12,10 +12,9 @@ public class InterfaceSecondClass implements InterfaceFirstClass,Interfacethirdc
 		
 		
 		
-		InterfaceSecondClass obj1=new InterfaceSecondClass();
+		InterfaceSecondClass obj1=new InterfaceSecondClass(); // this object can also run first class
 		obj1.show();
 		
-		//Interfacethirdclass obj2=new InterfaceSecondClass();
 		obj1.display();
 	}
 
