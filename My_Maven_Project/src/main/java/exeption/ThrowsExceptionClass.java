@@ -7,6 +7,7 @@ public class ThrowsExceptionClass {
 	public void display() throws IOException {
 		int a=10/0;
 		System.out.println(a);
+//		throw new ArithmeticException("Exception occured");
 	}
 	public void show() {
 		try {
